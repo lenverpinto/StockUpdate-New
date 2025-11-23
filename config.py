@@ -34,7 +34,6 @@ TELEGRAM_BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN")
 TELEGRAM_CHAT_ID = os.environ.get("TELEGRAM_CHAT_ID")
 NOTIFY_TELEGRAM = os.environ.get("NOTIFY_TELEGRAM", "true").lower() == "true"
 
-# curl.exe -F "chat_id=1111250499 " -F "caption=Test" -F "photo=@latest_snapshot.png" https://api.telegram.org/bot8541693339:AAGXmigJDLG1R0vO9SEb6kOlMJqX1rhSttg/sendPhoto
 
 
 # ---------------- EMAIL ----------------
