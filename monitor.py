@@ -95,4 +95,5 @@ def loop_mode():
 
 # ---------------- MAIN ----------------
 if __name__ == "__main__":
-    loop_mode()
+    # loop_mode()
+    moinitor_once()
